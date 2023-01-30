@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class App {
+public class zodyak {
     public static void main(String[] args) throws Exception {
         int year,kalan;
         String zodyak="";
@@ -60,16 +60,12 @@ public class App {
                 case 11 : 
                 zodyak = "Koyun";
                 break;
-
-                default :
-                System.out.println("Hatalı Çıktı");
             }
 
             System.out.println("Çin Zodyağı Burcunuz : " + zodyak);
         }
         else{
-            System.out.println("Hatalı Tarih Girişi Yaptınız");
-             
-        }
+            System.out.println("Lütfen Güncel Tarih Aralığını Kullanınız..");
+             }
     }
 }
